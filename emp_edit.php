@@ -98,6 +98,11 @@ if(array_key_exists('submit_form ', $_POST)) {
                 <?= html_options_activites(get_activites(),$agenda['15'])?>
             </select>
         </div>
+        <div>
+        <label class="soumettre">
+            <input type="submit" value="Soumettre">
+        </label>
+        </div>
 
     </form>
 
